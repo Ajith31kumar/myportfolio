@@ -401,33 +401,10 @@ form .btn2{
 }
 /* .............medai query.............. */
 
-/* @media only screen and (max-width:600px){
+@media only screen and (max-width:600px){
     #header{
         background-image: url("./images/mynew2.jpg");
     }
-    .imageBorder1.imageBorder2{
-        display: none;
-
-    } */
-    /* Media Query for screens smaller than 600px */
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: #F2F4F4; 
-    }
-
-    
-
-    /* Example: */
-    .headerImg {
-        width: 200px; 
-        height: 200px;
-        margin-top: 50px;
-    }
-
-    nav {
-        display: none; /* Hide the navigation on small screens */
-    }
-
     .header-text{
         margin-top: 100%;
         font-size: 16px;
@@ -499,6 +476,9 @@ form .btn2{
     .imageBorder2{
         display: none;
     }
+    #portfolio{
+        margin-top: 500px !important;
+    }
 }
 .imageBorder1{
     position: absolute;
@@ -506,8 +486,8 @@ form .btn2{
     height: 100px;
     border-top:13px solid #154428;
     border-left:13px solid #154428 ;
-    top: 142px;
-    left: 135px;
+    top: 140px;
+    left: 130px;
 }
 .imageBorder2{
     position:absolute;
@@ -515,67 +495,9 @@ form .btn2{
     height: 100px;
     border-right:13px solid #154428;
     border-bottom:13px solid #154428;
-    top: 485px;
-    left: 390px;
+    top: 440px;
+    left: 370px;
 }
 #top-head,#sideMenu{
     margin-top: 30px;
 }
-/* .col-sm-3{
-    background-color: #262626;
-    margin-right: 100px;
-    margin-bottom: 20px;
-}
-.cv-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-   
-   .cv-button:hover {
-    background-color: #0056b3;
-    padding: 10px 20px;
-  } 
-/*    */
-  /* .cv-button h2 {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 1.2em;
-  } */
-  
-  /* .cv-button .icon {
-    font-size: 5.5em;
-  } */ */ */
-  
-  /* Optional: Add more styles as needed */
-  .col-sm-3 {
-    background-color: #262626;
-    margin-right: 100px;
-    margin-bottom: 20px;
-  }
-  
-  .simple-box {
-     text-decoration: none;
-     background-color: #186A3B !important;
-     color: #fff;
-
-  }
-  
- .view:hover {
-    background-color: #262626;
-    border: 1px solid #fff;
-  }
-  .view{
-    background-color: #186A3B;
-    width: 250px;
-    padding: 15px;
-    margin-left: 30px;
-    margin-top: 50px;
-    border-radius: 10px;
-  }
-
-  
