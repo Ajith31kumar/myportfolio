@@ -399,9 +399,28 @@ form .btn2{
     margin-top: 20px;
     display: block;
 }
+.view{
+    background-color: #28B463;
+    color: #fff;
+    text-decoration: none !important;
+    padding: 20px 5px 20px 15px;
+    width: 200px;
+   margin: 50px 0px 0px 60px;
+   border-radius: 10px;
+    
+} 
 /* .............medai query.............. */
 
 @media only screen and (max-width:600px){
+      #projects{
+             margin-top: 850px  !important;
+         }
+     
+        .about-col-2{
+               margin-top: 250px;
+               color: #0f0f0f;
+
+        }
     #header{
         background-image: url("./images/mynew2.jpg");
     }
@@ -495,9 +514,30 @@ form .btn2{
     height: 100px;
     border-right:13px solid #154428;
     border-bottom:13px solid #154428;
-    top: 440px;
-    left: 370px;
+    top: 475px;
+    left: 395px;
 }
 #top-head,#sideMenu{
     margin-top: 30px;
+}
+.resume{
+    background-color: #186A3B;
+    color: #fff;
+    width: 200px;
+    padding: 20px 0px 20px 35px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.simple-box{
+    text-decoration: none;
+    color: #fff;
+   
+}
+.resume:hover {
+    background-color: #0f0f0f;
+    /* color: #262626; */
+    border: 1px solid white;
+}
+.headingContainer{
+    width: 100%;
 }
