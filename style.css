@@ -413,7 +413,7 @@ form .btn2{
 
 @media only screen and (max-width:600px){
       #projects{
-             margin-top: 850px  !important;
+             margin-top: 650px  !important;
          }
          .about-col-1{
             height: 400px;
@@ -429,6 +429,9 @@ form .btn2{
                flex-basis: 35%;
                
 
+        }
+        .header{
+            background-color: #0f0f0f;
         }
         .sub-title1{
             font-size: 20px;
@@ -446,12 +449,26 @@ form .btn2{
         font-size: 30px;
 
     }
+    #top-head{
+        margin: 0px;
+        position: fixed;
+        top : 0px; left: 0px;
+        margin-left: 20px;
+       background-color: #0f0f0f;
+       padding-bottom: 10px;
+     
+    }
     .headingContainer{
-        background-color: none;
+        background-color: black;
+        padding: 0px;
     }
     nav .fa-solid{
         display:block;
         font-size: 25px;
+        position: absolute;
+        left: 320px;
+        top: 10px;
+
     }
     nav ul{
         background: #ff004f;
@@ -470,8 +487,8 @@ form .btn2{
     }
     nav ul .fa-solid{
        position: absolute;
-       top: 25px;
-       left: 25px;
+       top: 0px;
+       left: 100px;
        cursor: pointer;
     }
     .sub-title{
@@ -522,7 +539,7 @@ form .btn2{
     border-top:13px solid #154428;
     border-left:13px solid #154428 ;
     top: 140px;
-    left: 130px;
+    left: 143px;
 }
 .imageBorder2{
     position:absolute;
