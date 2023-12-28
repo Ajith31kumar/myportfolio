@@ -415,8 +415,9 @@ form .btn2{
       #projects{
              margin-top: 650px  !important;
          }
+        
          .about-col-1{
-            height: 400px;
+            height: 300px;
         }
         .about-col-1{
             flex-basis: 25%;
@@ -424,7 +425,7 @@ form .btn2{
         }
      
         .about-col-2{
-               margin-top: 250px;
+               margin-top: 270px;
                color: #0f0f0f;
                flex-basis: 35%;
                
