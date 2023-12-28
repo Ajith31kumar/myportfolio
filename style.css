@@ -409,6 +409,7 @@ form .btn2{
    border-radius: 10px;
     
 } 
+
 /* .............medai query.............. */
 
 @media only screen and (max-width:600px){
@@ -431,6 +432,7 @@ form .btn2{
                
 
         }
+    
         .header{
             background-color: #0f0f0f;
             background-color: none;
@@ -497,6 +499,14 @@ form .btn2{
         font-size: 40px;
         
     }
+    .resume{
+        background-color: #186A3B;
+        color: #fff;
+        width: 200px;
+        padding: 20px 5px 20px 35px;
+        border-radius: 10px;
+      margin-left: 50px;
+    }
     .about-col-1,.about-col-2{
         flex-basis: 100%;
     }
@@ -555,14 +565,7 @@ form .btn2{
 #top-head,#sideMenu{
     margin-top: 30px;
 }
-.resume{
-    background-color: #186A3B;
-    color: #fff;
-    width: 200px;
-    padding: 20px 0px 20px 35px;
-    border-radius: 10px;
-    margin-left: 60px;
-}
+
 .simple-box{
     text-decoration: none;
     color: #fff;
