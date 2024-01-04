@@ -13,13 +13,10 @@ body{
 html{
     scroll-behavior: smooth;
 }
-#heading{
-    color:#28B463;
-}
 #top-head{
     font-size: 30px;
     margin-left: 100px;
-    border-bottom: 2px solid #28B463;
+  
     
 }
 .headerImg{
@@ -31,6 +28,7 @@ html{
 }
 
 .headingContainer{
+    
  position: fixed;
 z-index: 1;
  top:0px;
@@ -422,9 +420,25 @@ form .btn2{
 
 @media only screen and (max-width:600px){
       #projects{
-             margin-top: 650px  !important;
+             margin-top: 350px  !important;
          }
-        
+         
+         .headingContainer , #about{
+            background-color:#F2F4F4 !important;
+         }
+       
+
+       #top-head{
+        color: #0f0f0f;
+       padding-bottom: 100px;
+       }
+  
+      
+      .fa-bars{
+        color: #0f0f0f;
+        position: absolute;
+        top: 50px ;
+      }
          .about-col-1{
             height: 300px;
         }
@@ -434,7 +448,7 @@ form .btn2{
         }
      
         .about-col-2{
-               margin-top: 370px;
+               margin-top: 200px;
                color: #0f0f0f;
                flex-basis: 35%;
                
@@ -464,10 +478,10 @@ form .btn2{
     #top-head{
         margin: 0px;
         position: fixed;
-        top : 0px; left: 0px;
+        top : 0px; left: 0px ;
         margin-left: 20px;
-       background-color: #0f0f0f;
-       padding-bottom: 10px;
+
+   
      
     }
     .headingContainer{
@@ -478,9 +492,9 @@ form .btn2{
         display:block;
         font-size: 25px;
         position: absolute;
-        left: 320px;
-        top: 10px;
-
+        left: 370px;
+        top: 30px;
+        font-size: 40px;
     }
     nav ul{
         background: #ff004f;
@@ -513,7 +527,7 @@ form .btn2{
         width: 200px;
         padding: 20px 5px 20px 35px;
         border-radius: 10px;
-      margin-left: 50px;
+        margin-left: 65px;
     }
     .about-col-1,.about-col-2{
         flex-basis: 100%;
@@ -590,3 +604,26 @@ form .btn2{
   #top-head{
             margin-right: 70px;
         } 
+        
+@media only screen and (max-width:400px){
+    #projects{
+        margin-top: 550px  !important;
+    }
+    nav .fa-solid{
+        display:block;
+        font-size: 25px;
+        position: absolute;
+        left: 300px;
+        top: 30px;
+        font-size: 40px;
+    }
+    .resume{
+        background-color: #186A3B;
+        color: #fff;
+        width: 200px;
+        padding: 20px 5px 20px 35px;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+    
+}
